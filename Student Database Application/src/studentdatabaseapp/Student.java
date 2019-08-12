@@ -72,8 +72,7 @@ public class Student {
 		else System.out.println("Wrong Fee Payment!! ");
 	}
 	
-	//Show Status
-	// toString is used . It is part of Object class . And we actually override that
+	//Show Status toString is used as Object
 	public String toString() {
 		return "Name: "+ firstName + " " + lastName +
 				"\nYear: " +gradYear +
